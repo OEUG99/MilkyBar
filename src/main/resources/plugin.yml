@@ -1,0 +1,16 @@
+name: MilkyBar
+version: '${project.version}'
+main: net.milkymc.milkybar.MilkyBar
+api-version: '1.20'
+
+description: Boss Bars for MilkyMC
+
+commands: {}
+
+permissions: {}
+
+listeners:
+  - net.milkymc.milkybar.MilkyBar
+
+# This sets PlaceholderAPI as an optional dependency for your plugin.
+softdepend: [PlaceholderAPI]
